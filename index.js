@@ -14,7 +14,7 @@ for (let i = 0; i < longitud; i++) {
             k--;
             es = true;
             console.log("Esto no es un array" + Array.isArray(palabra1[i]));
-            console.log("El string es un array de caracteres, pero no es un array nativo. No tiene todo los metodos por que no es un Array.prototype. Es un 'array-like'");
+            console.log("El string es un array de caracteres, pero no es un array nativo. No tiene todos los metodos por que no es un Array.prototype. Es un 'array-like'");
             //transformo en array
             arr.push(palabra1[i]);
             console.log("Esto es un array " + Array.isArray(arr));
